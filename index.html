@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zn">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的第一个网页</title>
+  <style>
+    *{padding:0%;margin:0%}
+    table{
+      border: 2px solid black;
+      display: flex;
+      width: 700px;
+      height: 400px;
+      justify-content: center;
+      transform: translate(500px,200px);
+    }
+    th{
+      height: 100px;
+      font-size: 35px;
+    }
+    td{
+      width: 200px;
+      height: 40px;
+      border: 1px solid black;
+    }
+    #Image{
+      width: 100px;
+    }
+    #Hobby{
+      height: 40px;
+    } 
+   
+  </style>
+</head>
+<body>
+  <table>
+    <tr>
+      <th colspan="8">小介绍</td>
+    </tr>
+    <tr>
+      <td colspan="2">
+          姓名：
+         王科
+      </td>
+      <td colspan="2">
+          班级：
+        计科203
+      </td>
+      <td colspan="2">
+          学号：
+        20101080314
+      </td>
+      <td id="Image" rowspan="3" colspan="2"><img width="150" src="./images.jpg"></td>
+    </tr>
+    <tr>
+      <td colspan="6">
+          联系方式：
+        15928035579
+      </td>
+    </tr>
+    <tr>
+      <td id="Hobby" colspan="6" rowspan="6">
+          爱好：
+          <br>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
